@@ -25,6 +25,10 @@ h2 {
   color: #2e5449;
 }
 
+h3 {
+  color: #9acd57;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -61,7 +65,7 @@ h2 {
 
 header {
   text-align: center;
-  background: url('images/grass_background.jpg') no-repeat center center ;
+  background: url('_images/grass_background.jpg') no-repeat center center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -103,6 +107,20 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: #9acd57;
+}
+
+.card-experience {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 1000px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-experience:hover {
   border-color: #9acd57;
 }
 
@@ -157,19 +175,28 @@ a.social {
   transition: all .5s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(_images/twitter.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(_images/linkedin.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(_images/github.svg);
 }
 a.social:hover {
   opacity: 1;
 }
 .clearfix {
   clear: both;
+}
+
+.image_experience {
+  margin-top: 13px;
+  width: 325px;
+  height: 500px;
+  border-radius: 6px;
+  border: 3px solid white;
+  transition: all .5s;
 }
 
 /* Styles for larger screens */
