@@ -21,6 +21,10 @@ a:hover {
   color: #9acd57;
 }
 
+h2 {
+  color: #2e5449;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -74,7 +78,7 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.33) rotate(-11deg);
 }
 .tag {
   background-color: #efefef;
@@ -129,6 +133,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: .5em;
+  font-weight: bold;
 }
 
 footer ul {
